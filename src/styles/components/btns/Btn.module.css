@@ -1,0 +1,21 @@
+.btn a{
+    margin: 20px 0;
+    padding: 1rem 1.2rem;
+    border-radius: 30px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: var(--red);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn i{
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.btn:hover a{
+    background-color: #bb5d6e;
+}

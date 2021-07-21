@@ -1,0 +1,95 @@
+.navMobContainer {
+  padding: 8px 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.navMobIcon img {
+  max-width: 70px;
+}
+
+@keyframes navDown {
+  0% {
+    top: -100%;
+  }
+
+  100% {
+    top: 0%;
+  }
+}
+
+.navDisplay {
+  position: relative;
+  z-index: 101;
+}
+
+.navMobBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+
+  position: absolute;
+  right: 5px;
+  z-index: 100;
+}
+
+.navMobBottom span {
+  background-color: var(--red);
+  width: 40px;
+  height: 4px;
+  border-radius: 4px;
+  margin: 3px 0px;
+  transition: margin 0.4s cubic-bezier(0.79, 0.21, 0.06, 0.81),
+    transform 0.4s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+}
+.navMobBottom span:nth-child(2) {
+  transform-origin: 50% 50%;
+}
+.navMobBottom.active span {
+  background-color: var(--strong-red);
+  margin: -2px;
+}
+.navMobBottom.active span:nth-child(1) {
+  transform: rotate(-45deg);
+}
+.navMobBottom.active span:nth-child(2) {
+  transform: scale(0);
+}
+.navMobBottom.active span:nth-child(3) {
+  transform: rotate(45deg);
+}
+
+.navMob nav {
+  background-color: rgba(255, 255, 255, 0.9);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  min-width: 100%;
+  height: 100vh;
+
+  z-index: 99;
+  animation: navDown 0.5s ease-in-out forwards;
+}
+
+.navMob ul {
+  font-size: 2rem;
+  padding: 0px;
+}
+
+.navMob ul li {
+  text-align: center;
+}
+.navMob ul li + li {
+  margin-top: 5rem;
+}

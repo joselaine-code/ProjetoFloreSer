@@ -1,0 +1,108 @@
+.optionsContainer {
+  padding: 0 90px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-bottom: solid #e0e0e0 1px;
+}
+
+.checkbox {
+  width: 100%;
+}
+.checkbox label {
+  display: block;
+  position: relative;
+  padding-right: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox label span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.checkbox label:hover input ~ span {
+  background-color: #ccc;
+}
+
+.checkbox label input:checked ~ span {
+  background-color: var(--red);
+}
+
+.checkbox label span::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox label input:checked ~ span::after {
+  display: block;
+}
+
+.checkbox label span::after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.h2Quiz {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  margin: 50px auto;
+  font-size: 2rem;
+  width: 80%;
+}
+
+.perguntas p {
+  font-size: 1rem;
+}
+
+.btnTerminei {
+  background-color: #cc6678;
+  width: 130px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0;
+  margin: 50px auto;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 960px) {
+  .optionsContainer {
+    padding: 0 30px;
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "perguntas": [
+    {
+      "pergunta": "Já sofri constragimentos, insultos ou ridicularização",
+      "categoria": 1
+    },
+    {
+      "pergunta": "Já sofri alguma forma de humilhação",
+      "categoria": 2
+    },
+    {
+      "pergunta": "Já fui manipulada ou chantageada a fazer algo que não queria",
+      "categoria": 2
+    },
+    {
+      "pergunta": "Alguma situação foi distorcida a favor do meu(minha) companheiro(a)",
+      "categoria": 2
+    },
+    {
+      "pergunta": "Já sofri isolamento ou limitação do seu direito de ir e vir",
+      "categoria": 2
+    },
+    { "pergunta": "Sofro ou já sofri vigilância constante", "categoria": 2 },
+    {
+      "pergunta": "Já sofri estupro (relação não consentida inclusive no casamento)",
+      "categoria": 3
+    },
+    {
+      "pergunta": "Fui impedida de utilizar métodos contraceptivos",
+      "categoria": 2
+    },
+    {
+      "pergunta": "Tenho ou tive o meu financeiro controlado",
+      "categoria": 1
+    },
+    {
+      "pergunta": "Já tive objetos pessoais destruídos pelo meu(minha) parceiro(a)",
+      "categoria": 2
+    },
+    {
+      "pergunta": "Já fui acusada de traição ou qualquer tipo de crítica mentirosa",
+      "categoria": 1
+    },
+    {
+      "pergunta": "Já tive a minha intimidade exposta (vazamento de fotos, por exemplo)",
+      "categoria": 2
+    },
+    {
+      "pergunta": "Já me senti insuficiente na relação",
+      "categoria": 2
+    },
+    {
+      "pergunta": "Já fui julgada pelo meu modo de se vestir ou relacionamentos passados",
+      "categoria": 2
+    },
+    {
+      "pergunta": "Nenhuma das alternativas",
+      "categoria": 0
+    }
+  ]
+}

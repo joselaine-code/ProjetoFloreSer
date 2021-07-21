@@ -1,0 +1,25 @@
+{
+  "abusivoLeve": {
+    "picture": "/svg/abusivoLeve.svg",
+    "title": "RELACIONAMENETO ABUSIVO - LEVE",
+    "text": "Pelas suas respostas percebemos que o seu relacionamento possui algumas situações que não são saudáveis, é um bom momento de contar com o auxilio de familiares e amigos para identificar essas atitudes e não permitir que elas se agravem."
+  },
+
+  "abusivoModerado": {
+    "picture": "/svg/abusivoModerado.svg",
+    "title": "RELACIONAMENETO ABUSIVO - MODERADO",
+    "text": "O seu relacionamento possui vários traços abusivos, portanto, é necessário que nesse momento você se conscientize e busque ajuda profissional para lidar com o que está vivendo."
+  },
+
+  "abusivoGrave": {
+    "picture": "/svg/abusivoGrave.svg",
+    "title": "RELACIONAMENETO ABUSIVO - GRAVE",
+    "text": "Infelizmente, muito provavelmente, você está em um relacionamento abusivo, é o momento de buscar entender cada atitude do seu parceiro e principalmente buscar ajuda profissional e caso se sinta ameaçada, você não está sozinha, denuncie."
+  },
+
+  "saudavel": {
+    "picture": "/svg/saudavel.svg",
+    "title": "RELACIONAMENTO SAUDÁVEL",
+    "text": "Temos uma boa notícia, você está em um relacionamento saudável, nos ajude a divulgar esse questionário, pois assim você estará contribuindo com a vida de mulheres que necessitam de ajuda ao seu redor."
+  }
+}

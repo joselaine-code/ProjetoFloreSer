@@ -1,0 +1,136 @@
+.bodyContent{  
+  padding: 60px 90px;
+  margin: 40px 0;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 20px 90px 20px 90px;
+}
+
+.accordionBtn{
+  background-color: var(--red);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.accordionPanel{
+  padding: 20px;
+  overflow: hidden;
+}
+
+@keyframes fadein {
+  0% {
+      display: none;
+      margin-top: -50%;
+  }
+
+  100% {
+      display: block;
+      margin-top: 0;
+  }
+}
+
+.accordionBtn:before {
+  display: inline-block;
+  content: '';
+  height: 10px;
+  width: 10px;
+  margin-right: 12px;
+  border-bottom: 3px solid currentColor;
+  border-right: 3px solid currentColor;
+  transform: rotate(-45deg);
+  transition: .5s;
+}
+
+.accordionBtn[aria-expanded='true']::before,
+.accordionBtn[aria-selected='true']::before {
+    transform: rotate(45deg);
+    transition: .5s;
+}
+
+.accordionBtn:hover{
+  background-color: #bb5d6e;
+}
+
+
+.container h2{
+  font-size: 2rem;
+  max-width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.violenceType{
+  max-width: 40%;
+  width: 100%;
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+
+.violenceType h3{
+  font-size: 1.5rem;
+}
+
+.violenceTypeContent{
+  padding-left: 1rem;
+  animation: fadein 1s ease-in-out alternate;
+  animation-delay: -.7s;
+  line-height: 1.5rem;
+}
+
+.violenceTypeContent li{
+  margin: 10px 0;
+  list-style: disc;
+}
+
+.violenceTypeContent h4{
+  font-size: 1rem;
+}
+
+.violenceTypeContent ul{
+  padding: 0;
+}
+
+
+@media only screen and (max-width: 1080px) {
+  .bodyContent{
+    padding: 0;
+  }
+  .container h2{
+    font-size: 1.3rem;
+    margin-top: 40px;    
+  }
+
+  .container hr{
+    width: 90%;
+  }
+
+  .violenceType{
+    width: 100%;    
+    max-width: 90%;
+    margin: 0 auto 30px;
+  }
+
+  .violenceType h3{
+    font-size: 1.3rem;
+  }
+  
+  .violenceTypeContent{
+    padding-left: 0px;
+  }
+  
+  .violenceTypeContent h4{
+    font-size: 1rem;
+  }  
+  .violenceTypeContent ul{
+    padding: 0;
+  }
+
+}
