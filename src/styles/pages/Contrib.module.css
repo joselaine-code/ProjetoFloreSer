@@ -14,7 +14,6 @@
 
 .donation p{
     max-width: 608px;
- display: hiden;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -43,11 +42,11 @@
 }
 
 .containerPicpay{
+display: hiden;
     margin:  0 25px ;
 }
 
 .containerMethod{
-
     border-radius: 15px;
     display: flex;
     flex-direction: column;
