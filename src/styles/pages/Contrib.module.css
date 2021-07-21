@@ -14,6 +14,7 @@
 
 .donation p{
     max-width: 608px;
+ display: hiden;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -32,7 +33,7 @@
 }
 
 .container {
-    display: hiden;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
