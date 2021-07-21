@@ -4,7 +4,6 @@
 
 .donation h1{
     max-width: 608px;
-    
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -15,7 +14,7 @@
 
 .donation p{
     max-width: 608px;
-    
+    display: hiden;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
