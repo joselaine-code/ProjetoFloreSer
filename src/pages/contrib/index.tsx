@@ -32,25 +32,6 @@ const index = () => {
                
             </div>
 
-            <div className={styles.picpayCode}>
-              <Image 
-                src="/svg/qrcodepicpay.svg"
-                alt="QRCODE"
-                width="171"
-                height="171"
-              />
-            </div>
-          </div>
-
-          <div className={styles.container}>
-            <div className={`${styles.containerMethod} ${styles.containerPicpay}`}>
-              <Image src="/svg/pix.svg" alt="Pix" width="155" height="50" />
-              <div className={styles.button}>
-                <Btn color="#32BCAD" text="41.588.317/0001-78" target="google.com" fontColor="white" icon="none" />
-              </div>
-              
-            </div>
-
             <div className={styles.pixCode}>
             <Image
                   className="qrcodepix"
