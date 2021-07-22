@@ -46,7 +46,7 @@ const index = () => {
             <div className={`${styles.containerMethod} ${styles.containerPicpay}`}>
               <Image src="/svg/pix.svg" alt="Pix" width="155" height="50" />
               <div className={styles.button}>
-                <Btn color="#32BCAD" text="41.588.317/0001-78" target="google.com" fontColor="white" icon="none" />
+                <Btn color="#32BCAD" text="41.588.317/0001-78" target="" fontColor="white" icon="none" />
               </div>
               
             </div>
