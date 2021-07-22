@@ -16,14 +16,14 @@ const index = () => {
               abuso. Fazer uma doação é fazer parte da mudança, é estender a mão
               àquelas que precisam de ajuda!
             </p>
-            <p>
+            {/* <p>
               <strong>Escolha um dos meios abaixo </strong>
-            </p>
+            </p> */}
           </div>
         </section>
 
         <section className={styles.pay}>
-          <div className={styles.container}>
+          {/* <div className={styles.container}>
             <div className={styles.containerMethod}>
               <Image src="/svg/picpay.svg" alt="picpay" width="155" height="50" />
               <div className={styles.button}>
@@ -40,7 +40,7 @@ const index = () => {
                 height="171"
               />
             </div>
-          </div>
+          </div> */}
 
           <div className={styles.container}>
             <div className={`${styles.containerMethod} ${styles.containerPicpay}`}>
