@@ -6,8 +6,8 @@ Idealização:
 Joselaine Aparecida (Presidente Fundadora da Associação Flor e Ser)
 
 Criadores: <br/>
-Douglas Hougaz, UX
+Douglas Hougaz, UX <br/>
 Helen Souza (@helensouz) <br/>
-Vinicius Inocêncio (@inocencio5117)
-Rafaela Martins (@rrafush)
+Vinicius Inocêncio (@inocencio5117) <br/>
+Rafaela Martins (@rrafush) <br/>
 Anderson S. (@Anderson-S-M3)
